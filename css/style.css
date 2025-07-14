@@ -44,3 +44,70 @@ header nav ul li a {
     border-radius: 1px ;
     padding: 4px 8px 4px 8px;
    }
+   /*====================================================================== Posts================================================================== */
+   section.posts {
+    background-color: #EDF7FA;
+    padding: 5vw 4vw 5vw 4vw;
+   }
+   section.posts h2 {
+    text-align: center;
+    font-size: 1.3rem;
+   } 
+   section.posts ul li {
+    background-color: white;
+    margin: 2vw 0 2vw 0;
+    padding: 3vw 3vw 3vw 3vw;
+    box-shadow: 0 1px 4px lightblue;
+    border-radius: 4px;
+   }
+   section.posts ul li h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+   }
+   section.posts ul li p {
+    padding: 2vw 0 2vw 0;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+   }
+   /* ==========================================================Works================================================================================ */
+   section.works {
+    padding: 5vw 4vw 5vw 4vw;
+   }
+   section.works h2 {
+    text-align: center;
+    margin : 1.3rem;
+   }
+   section.works ul li {
+    margin: 2vw 0 2vw 0;
+    padding: 3vw 3vw 3vw 3vw;
+   }
+   section.works ul li h3 {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    margin: 3vw 0 3vw 0;
+   }
+   section.works ul li p {
+    padding: 2vw 0 2vw 0;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+   }
+   section.works ul li p.info {
+    color: #8695A4;
+   }
+   section.works ul li img {
+    width: 100%;
+    max-width: 391px;
+   }
+   section.works ul li p span {
+    background-color: #142850;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 8px 4px 8px;
+    font-weight: bold;
+   }
+
+
+   footer nav a {
+    color: black;
+    font-size: 3rem;
+   }
