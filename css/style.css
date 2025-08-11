@@ -26,14 +26,14 @@ header nav ul li a {
 
    section.banner {
     text-align: center;
-    margin : 0 5vw 0 5vw;
+    margin : 0 5vw 2vw 5vw;
    }
    section.banner h1 {
     font-size: 2rem ;
     font-weight: bold;
     margin: 20px 0 20px 0;
    }
-   section.banner {
+   section.banner p{
     margin: 10px 0 10px 0;
     line-height: 1.2rem;
    }
@@ -69,45 +69,47 @@ header nav ul li a {
     font-size: 1.3rem;
     line-height: 1.5rem;
    }
-   /* ==========================================================Works================================================================================ */
-   section.works {
-    padding: 5vw 4vw 5vw 4vw;
+   /* ==========================================================Works================================================================================ */    
+
+   section.works{
+    padding: 5vw 3vw 5vw 3vw;
    }
    section.works h2 {
     text-align: center;
-    margin : 1.3rem;
-   }
-   section.works ul li {
-    margin: 2vw 0 2vw 0;
-    padding: 3vw 3vw 3vw 3vw;
+    font-size: 1.3rem;
    }
    section.works ul li h3 {
-    font-size: 1.8rem; 
     font-weight: bold;
-    margin: 3vw 0 3vw 0;
+    font-size: 1.8rem;
+    margin: 10px 0 10px 0;
    }
-   section.works ul li p {
-    padding: 2vw 0 2vw 0;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-   }
-   section.works ul li p.info {
-    color: #8695A4;
-   }
-   section.works ul li img {
-    width: 100%;
-    max-width: 391px;
-   }
-   section.works ul li p span {
+   
+   section.works ul li span{
     background-color: #142850;
-    color: white;
-    border-radius: 15px;
-    padding: 4px 8px 4px 8px;
     font-weight: bold;
+    color: white;
+    padding: 3px 6px 3px 6px;
+    border-radius: 15px;
    }
+    section.works ul li p.info {
+    color: #8695A4;
+    }
+    section.works ul li p {
+    margin: 5px 0 5px 0;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    }
+    /* ==========================================footer========================================== */
 
-
-   footer nav a {
-    color: black;
-    font-size: 3rem;
-   }
+    footer {
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+    footer nav a {
+        color: #21243D;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    footer nav {
+        margin: 2rem 0 2rem 0;
+    }
