@@ -83,6 +83,11 @@ header nav ul li a {
     font-size: 1.8rem;
     margin: 10px 0 10px 0;
    }
+
+   section.works ul li {
+    width: 100%;
+    max-width: 391px;
+   }
    
    section.works ul li span{
     background-color: #142850;
@@ -113,3 +118,5 @@ header nav ul li a {
     footer nav {
         margin: 2rem 0 2rem 0;
     }
+
+    
